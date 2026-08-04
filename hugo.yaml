@@ -1,0 +1,57 @@
+# ĐỔI thành domain riêng khi mua xong. Trên Cloudflare Pages tạm thời là <project>.pages.dev
+baseURL: "https://sililog.pages.dev/"
+locale: "en-us"
+title: "Sililog — Embedded Engineering Notes"
+theme: "PaperMod"
+
+# Bài nằm trong content/posts/<cha>/<con>/ -> vẫn hiện ở trang chủ
+mainSections:
+  - posts
+
+params:
+  description: "Build logs from someone learning embedded systems the hard way."
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true          # hiện: Home > embedded > bare-metal > bài
+  ShowToc: true
+  TocOpen: false
+  homeInfoParams:
+    Title: "Hi 👋"
+    Content: "I'm learning embedded systems — bare-metal firmware, then Linux/BSP. These are my build logs: what broke, and how I fixed it."
+  socialIcons:
+    - name: github
+      url: "https://github.com/docute123cat"
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40
+
+taxonomies:
+  category: categories
+  tag: tags
+
+# Cho phép HTML thô trong Markdown (comment, <details>, ...)
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: github-dark
+    noClasses: false
+    lineNos: false
