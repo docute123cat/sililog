@@ -8,7 +8,8 @@ ShowBreadCrumbs: false
 ShowPostNavLinks: false
 ---
 
-About Me — The Journey of an EEE Engineer "Lost" and Finding Himself in Embedded Systems
+The Journey of an EEE Engineer "Lost" and Finding Himself in Embedded Systems
+
 Hello there, visitor of this little corner of the internet!
 
 If you accidentally stumbled upon this page—whether from a shared source code snippet, a hardware design project, or simply out of curiosity about who is behind this website—welcome, I am glad you are here.
