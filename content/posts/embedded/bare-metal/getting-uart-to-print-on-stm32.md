@@ -1,4 +1,6 @@
 ---
+# ⚠️ FILE NÀY DO sync.py SINH RA — MỌI SỬA ĐỔI SẼ BỊ MẤT.
+# Sửa bản gốc tại: 50 - Blog/getting-uart-to-print-on-stm32.md
 title: "Getting UART to Print on STM32 Without HAL"
 date: 2026-08-02
 tags: ["stm32", "bare-metal", "uart", "debugging"]

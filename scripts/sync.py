@@ -161,6 +161,8 @@ def main():
 
         # Dựng lại front matter cho Hugo: publish -> draft (ĐẢO NGƯỢC)
         out = ["---"]
+        out.append("# ⚠️ FILE NÀY DO sync.py SINH RA — MỌI SỬA ĐỔI SẼ BỊ MẤT.")
+        out.append(f'# Sửa bản gốc tại: 50 - Blog/{md.name}')
         for k in order:
             if k in ("publish", "parent", "child"):
                 continue
